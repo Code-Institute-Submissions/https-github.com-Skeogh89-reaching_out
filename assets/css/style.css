@@ -1,0 +1,43 @@
+body{
+    background-color: blue;
+}
+
+/* NAVBAR */
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width:100%;
+    background-color: rgba(0,0 0,0,.5);
+    
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: red;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red{
+    color: white;
+    background-color: purple;
+    border-color: purple;
+}
+
+
+
