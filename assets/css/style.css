@@ -1,5 +1,5 @@
 body{
-    background-color: blue;
+    background-color: grey;
 }
 
 /* NAVBAR */
@@ -8,7 +8,7 @@ body{
     margin-bottom: 0;
     border: 0;
     width:100%;
-    background-color: rgba(0,0 0,0,.5);
+    background-color: rgba(0,0 0,0,0.5);
     
 }
 
@@ -18,11 +18,18 @@ body{
 
 .navbar-brand {
     font-weight: bold;
-    color: red;
+}
+
+.navbar-dark .navbar-brand {
+    color: black;
 }
 
 .navbar .navbar-nav a {
     font-weight: bold;
+}
+
+.nav-item {
+    color: red;
 }
 
 /* Buttons */
