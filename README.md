@@ -24,6 +24,8 @@ Bootstrap
 Testing:
 --------
 
+ml-auto on icon toggler not working in NAV-bar. fixed- forgot to enter scripts
+
 
 Deployment:
 ------------

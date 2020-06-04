@@ -21,14 +21,16 @@ body{
 }
 
 .navbar-dark .navbar-brand {
-    color: black;
+    color: rgb(122, 122, 122);
 }
 
-.navbar .navbar-nav a {
+.navbar .navbar-nav a.nav-link {
     font-weight: bold;
+    color: grey;
+    float: right;
 }
 
-.nav-item {
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
     color: red;
 }
 
@@ -42,9 +44,22 @@ body{
 
 .btn--red{
     color: white;
-    background-color: purple;
-    border-color: purple;
+    background-color: black;
+    border-color: black;
 }
 
+/* heroCarosel*/
 
+.herocarosel {
+    padding-left: 25px;
+}
 
+/*-----------------------------media queries*/
+@media (min-width: 576px)
+.navbar-expand-sm .navbar-collapse {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    
+}
