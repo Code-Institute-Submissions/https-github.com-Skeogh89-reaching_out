@@ -35,6 +35,8 @@ Credits:
 ---------
 
 - Content
+https://getbootstrap.com/docs/4.5/components/navbar/
+https://getbootstrap.com/docs/4.5/components/carousel/
 - Media
 - Acknowledgements 
 
