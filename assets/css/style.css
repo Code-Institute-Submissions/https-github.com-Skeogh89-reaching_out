@@ -1,8 +1,26 @@
 body{
+    background-color: white;
+}
+
+/* colors */
+
+h5 {
+    color: green;
+}
+
+div p {
+    color: green;   /*test colors*/
+}
+
+.test {
     background-color: grey;
 }
 
-/* NAVBAR */
+
+/*--colors--*/
+
+
+/*--NAVBAR--*/
 
 .navbar {
     margin-bottom: 0;
@@ -34,7 +52,7 @@ body{
     color: red;
 }
 
-/* Buttons */
+/*--Buttons--*/
 
 .btn--cta {
     font-weight: bold;
@@ -48,11 +66,71 @@ body{
     border-color: black;
 }
 
-/* heroCarosel*/
+/*--/Buttons--*/
+
+/*--HeroCarosel--*/
 
 .herocarosel {
     padding-left: 25px;
 }
+
+/*--/HeroCarosel--*/
+
+/*--Footer--*/
+
+footer {
+    background-color: #05d7f3;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.footer h3 {
+    text-align: right;
+}
+
+.footer i {
+    width: 100px;
+    text-align: right;
+}
+
+.social-links {
+    float: right;
+}
+
+.social-links li a i {
+    width: 55px;
+    height: 55px;
+    padding: 24px 0;
+    border-radius: 50%;
+    font-size: 45px;
+    line-height: 7px;
+    text-align: center;
+    color: rgb(44, 188, 255);
+    background: #fafafa;
+    transition: all 0.35 ease-in-out;
+    -moz-transition: all 0.35 ease-in-out;
+    -webkit-transition: all 0.35 ease-in-out;
+    -o-transition: all 0.35 ease-in-out;
+}
+
+.social-links li {
+    list-style-type: none;
+    display: inline;
+    
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+.social-links li a i:hover {
+background: green;
+}
+
+
+/*--/Footer--*/
 
 /*-----------------------------media queries*/
 @media (min-width: 576px)
