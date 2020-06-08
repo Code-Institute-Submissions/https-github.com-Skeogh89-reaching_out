@@ -37,6 +37,7 @@ Credits:
 - Content
 https://getbootstrap.com/docs/4.5/components/navbar/
 https://getbootstrap.com/docs/4.5/components/carousel/
+https://www.w3schools.com/css/css3_borders.asp
 - Media
 - Acknowledgements 
 

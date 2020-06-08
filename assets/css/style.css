@@ -4,18 +4,18 @@ body{
 
 /* colors */
 
-h5 {
-    color: green;
-}
 
 div p {
-    color: green;   /*test colors*/
+    color: white;   /*test colors*/
+}
+
+div p a {
+    color: white;
 }
 
 .test {
     background-color: grey;
 }
-
 
 /*--colors--*/
 
@@ -23,29 +23,62 @@ div p {
 /*--NAVBAR--*/
 
 .navbar {
-    margin-bottom: 0;
+    margin-bottom: 25px;
     border: 0;
     width:100%;
-    background-color: rgba(0,0 0,0,0.5);
+    background-color: #05d7f3;
     
 }
 
+
 .navbar .navbar-toggler {
     border: 0;
+}
+
+.navbar-light .navbar-toggler {    
+    color: blue;                         /*--not working--*/ 
+    border-color: blue;      
 }
 
 .navbar-brand {
     font-weight: bold;
 }
 
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #2246ff;
+}
+
 .navbar-dark .navbar-brand {
     color: rgb(122, 122, 122);
 }
 
+.navbar-light .navbar-nav .nav-link {
+    text-align: center;
+}
+
 .navbar .navbar-nav a.nav-link {
     font-weight: bold;
-    color: grey;
+    color: white;
     float: right;
+    text-align: center;
+}
+
+.navbar .navbar-nav a.nav-link:hover {
+    color: #2246ff;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #2246ff;
+}
+
+.navbar-light .navbar-text {
+    color: white;
+    float: right;
+    padding-top: 20px;
 }
 
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
@@ -62,8 +95,8 @@ div p {
 
 .btn--red{
     color: white;
-    background-color: black;
-    border-color: black;
+    background-color: white;
+    border-color: white;
 }
 
 /*--/Buttons--*/
@@ -72,6 +105,10 @@ div p {
 
 .herocarosel {
     padding-left: 25px;
+}
+
+.carousel-item {
+    color: #2246ff;
 }
 
 /*--/HeroCarosel--*/
@@ -99,19 +136,19 @@ footer {
 }
 
 .social-links li a i {
-    width: 55px;
-    height: 55px;
-    padding: 24px 0;
-    border-radius: 50%;
-    font-size: 45px;
-    line-height: 7px;
-    text-align: center;
-    color: rgb(44, 188, 255);
-    background: #fafafa;
+    width:65px;
+    height:50px;
+    border-radius:50px;
+    border: 2px solid #49c5ff;
+    font-size: 40px;
+    color: #05d7f3;
+    line-height: 50px;
+    text-align:center;
+    background:white;
     transition: all 0.35 ease-in-out;
     -moz-transition: all 0.35 ease-in-out;
     -webkit-transition: all 0.35 ease-in-out;
-    -o-transition: all 0.35 ease-in-out;
+    -o-transition: all 0.35 ease-in-out;   
 }
 
 .social-links li {
@@ -126,7 +163,7 @@ footer {
 }
 
 .social-links li a i:hover {
-background: green;
+background: #2246ff;
 }
 
 
