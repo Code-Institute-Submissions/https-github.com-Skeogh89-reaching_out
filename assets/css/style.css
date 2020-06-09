@@ -13,12 +13,30 @@ div p a {
     color: white;
 }
 
+.text-black {
+    color: black;
+}
+
+.center {
+    text-align: center:
+}
+
 .test {
     background-color: grey;
 }
 
 /*--colors--*/
 
+.divider {
+    margin: 5rem 0;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
 
 /*--NAVBAR--*/
 
@@ -112,6 +130,17 @@ div p a {
 }
 
 /*--/HeroCarosel--*/
+/*--about--*/
+
+.about {
+    text-align: center;
+    
+}
+
+
+
+/*--/about--*/
+
 
 /*--Footer--*/
 
