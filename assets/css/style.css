@@ -9,6 +9,15 @@ div p {
     color: white;   /*test colors*/
 }
 
+.test1 {
+    background-color: red;
+}
+
+.test2 {
+    background-color: grey;
+}
+
+
 div p a {
     color: white;
 }
@@ -21,9 +30,6 @@ div p a {
     text-align: center:
 }
 
-.test {
-    background-color: grey;
-}
 
 /*--colors--*/
 
