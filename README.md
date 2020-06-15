@@ -4,10 +4,12 @@ This project is an website that assist with the COVID-19 situation.
 The website will assist people while cocooning and provide people who need masks. 
 
 
-Existing Features:
+Existing Features: 
 --------------------------
 
-Features Left to Implement:
+Contact page has be created but still needs to styled. 
+
+Features Left to Implement:  
 ---------------------------
 
 User are able to sign up if they need assistance in there shopping while cocooning.
@@ -25,6 +27,10 @@ Testing:
 --------
 
 ml-auto on icon toggler not working in NAV-bar. fixed- forgot to enter scripts
+
+tested of page navigation through NAC links- All work correctly.
+
+Working on scaling carosel and images on pages. 
 
 
 Deployment:
