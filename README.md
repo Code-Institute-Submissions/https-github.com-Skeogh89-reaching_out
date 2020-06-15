@@ -38,7 +38,9 @@ Credits:
 https://getbootstrap.com/docs/4.5/components/navbar/
 https://getbootstrap.com/docs/4.5/components/carousel/
 https://www.w3schools.com/css/css3_borders.asp
-- Media
+https://getbootstrap.com/docs/4.5/components/forms/
+https://stackoverflow.com/questions/3029422/how-do-i-auto-resize-an-image-to-fit-a-div-container#:~:text=If%20your%20image%20is%20portrait,100%25%22%20on%20the%20image.
+- media
 - Acknowledgements 
 
 

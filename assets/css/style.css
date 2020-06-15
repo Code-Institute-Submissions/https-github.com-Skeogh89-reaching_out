@@ -4,6 +4,37 @@ body{
 
 /* colors */
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.carousel .item img {
+  max-height: 768px;
+  min-width: auto;
+}
+
+.carousel-item .active{
+  max-width: 80%;
+    max-height: 60%;
+    align-items: center;
+}
+
+.readmore {
+        background-color: #1c87c9;
+        border: none;
+        color: white;
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+
+
+
 
 div p {
     color: white;   /*test colors*/
@@ -35,6 +66,10 @@ div p a {
 
 .divider {
     margin: 5rem 0;
+}
+
+.padding {
+    padding: 10px;
 }
 
 hr {
