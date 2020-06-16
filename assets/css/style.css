@@ -148,6 +148,10 @@ hr {
         cursor: pointer;
       }
 
+    .readmore:hover{
+        text-decoration: none;
+    }
+
 
 /*--/Buttons--*/
 
@@ -190,6 +194,32 @@ hr {
 
 
 /*--/about--*/
+
+/*--services--*/
+
+.services {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.services h2 {
+    padding-bottom: 20px;
+}
+
+.services .more {
+    padding-top: 20px;
+}
+
+/*--services--*/
+
+/*--People--*/
+.people h2 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+/*--People--*/
 
 
 /*--Footer--*/
