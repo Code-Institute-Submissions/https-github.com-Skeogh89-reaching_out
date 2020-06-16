@@ -2,36 +2,33 @@ body{
     background-color: white;
 }
 
+h2, h3 {
+    font-family: Black Ops One;
+}
+
 /* colors */
 
  .row .about {
     text-align: center;
 }
-
 img {
     max-width: 100%;
     max-height: 100%;
 }
 
 div p {
-    color: white;   /*test colors*/
+    color: black;   /*test colors*/
+    font-weight: 600;
 }
-
-.test1 {
-    background-color: red;
-}
-
-.test2 {
-    background-color: grey;
-}
-
 
 div p a {
-    color: white;
+    color: black;
+    font-weight: 600;
 }
 
 .text-black {
     color: black;
+    font-family: roboto;
 }
 
 .center {
@@ -62,7 +59,7 @@ hr {
     margin-bottom: 25px;
     border: 0;
     width:100%;
-    background-color: #05d7f3;
+    background-color: yellow;
     
 }
 
@@ -78,14 +75,16 @@ hr {
 
 .navbar-brand {
     font-weight: bold;
+    font-size:  30px;
+    font-family: piedra;
 }
 
 .navbar-light .navbar-brand {
-    color: white;
+    color: black;
 }
 
 .navbar-light .navbar-brand:hover {
-    color: #2246ff;
+    color: red;
 }
 
 .navbar-dark .navbar-brand {
@@ -98,21 +97,21 @@ hr {
 
 .navbar .navbar-nav a.nav-link {
     font-weight: bold;
-    color: white;
+    color: black;
     float: right;
     text-align: center;
 }
 
 .navbar .navbar-nav a.nav-link:hover {
-    color: #2246ff;
+    color: red;
 }
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: #2246ff;
+    color: red;
 }
 
 .navbar-light .navbar-text {
-    color: white;
+    color: black;
     float: right;
     padding-top: 20px;
 }
@@ -132,13 +131,13 @@ hr {
 .btn--red{
     color: white;
     background-color: white;
-    border-color: white;
+    border-color: rgb(255, 255, 255);
 }
 
 .readmore {
-        background-color: #1c87c9;
-        border: none;
-        color: white;
+        background-color: yellow;
+        border-radius: 15px;
+        color: black;
         padding: 20px 34px;
         text-align: center;
         text-decoration: none;
@@ -146,10 +145,12 @@ hr {
         font-size: 20px;
         margin: 4px 2px;
         cursor: pointer;
+        border:2px solid black;
       }
 
     .readmore:hover{
         text-decoration: none;
+        color: red;
     }
 
 
@@ -210,6 +211,10 @@ hr {
     padding-top: 20px;
 }
 
+.services .portrait {
+    padding-left: 30px;
+}
+
 /*--services--*/
 
 /*--People--*/
@@ -225,8 +230,8 @@ hr {
 /*--Footer--*/
 
 footer {
-    background-color: #05d7f3;
-    color: #fafafa;
+    background-color: yellow;
+    color: black;
     min-height: 120px;
     margin: 0;
 }
@@ -272,7 +277,7 @@ footer {
 }
 
 .social-links li a i:hover {
-background: #2246ff;
+background:  yellow;
 }
 
 
