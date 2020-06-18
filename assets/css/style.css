@@ -312,6 +312,10 @@ background:  yellow;
 
 /*--/Footer--*/
 
+.center-me {
+    margin: 0;
+}
+
 /*-----------------------------media queries*/
 @media (min-width: 576px)
 .navbar-expand-sm .navbar-collapse {
@@ -320,5 +324,7 @@ background:  yellow;
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
 }
+
+
 
 

@@ -3,11 +3,21 @@
 This project is an website that assist with the COVID-19 situation. 
 The website will assist people while cocooning and provide people who need masks. 
 
+Neighbours Reaching Out is a community response to the COVID-19 global pandemic. 
+We’re a group of residents in the Donaghmede area that have come together to offer support and help to other residents, particularly the elderly and vulnerable.
+
 
 Existing Features: 
 --------------------------
 
-Contact page - Navigation bar 
+1 - carosel with changing images. 
+
+2 - infomation on cocooning and how to recieve mask.
+
+3 - navigation bar the links to all pages - also buttons on pages linking to contact page.
+
+4 - footer links to social media accounts.
+
 
 Features Left to Implement:  
 ---------------------------
@@ -31,6 +41,10 @@ Worked on different screen sizes. Remove and inserted image at different resolou
 
 added alt infomation for the visuallay impaired. 
 
+NAVBAR brand text not showing correctly for smaller screens : fixed.
+
+form showing too large at desktop level but fine at mobile : 
+
 
 Deployment:
 ------------
@@ -49,7 +63,12 @@ https://getbootstrap.com/docs/4.5/components/forms/
 https://stackoverflow.com/questions/3029422/how-do-i-auto-resize-an-image-to-fit-a-div-container#:~:text=If%20your%20image%20is%20portrait,100%25%22%20on%20the%20image.
 https://getbootstrap.com/docs/4.0/utilities/display/
 - media
+
+Images provided by Jennifer White.
+
 - Acknowledgements 
+Thanks to Jennifer White for all the support and giving me the idea to use this a project idea.
+
 
 
 
