@@ -29,6 +29,8 @@ Working on scaling carosel and images on pages.
 
 Worked on different screen sizes. Remove and inserted image at different resoloutions for HOME and Shopping page.
 
+added alt infomation for the visuallay impaired. 
+
 
 Deployment:
 ------------
