@@ -2,28 +2,11 @@ body{
     background-color: white;
 }
 
-h2, h3 {
-    font-family: Black Ops One;
-}
-
-.carousel-text {
-    font-weight: 500;
-    color: red;
-    font-size: 25px;
-    font-family: roboto;
-}
-
-.text-about {
-    color: black;
-    font-family: roboto;
-    font-size: 25px;
-}
-
 .space {
     padding-top: 30px;
 }
 
-/* colors */
+/* colors + fonts */
 
  .row .about {
     text-align: center;
@@ -44,16 +27,33 @@ div p a {
 }
 
 .text-black {
-    color: black;
-    font-family: roboto;
+     font-weight: 500;
+     color: black;
+     font-size: 25px;
+     font-family: Montserrat;
 }
 
 .center {
     text-align: center:
 }
 
+h2, h3 {
+    font-family: Black Ops One;
+}
 
-/*--colors--*/
+.carousel-text {
+    font-weight: 500;
+    color: black;
+    font-size: 25px;
+    font-family: roboto;
+}
+
+.text-about {
+    color: black;
+    font-family: roboto;
+    font-size: 25px;
+}
+/*--colors + fonts--*/
 
 .divider {
     margin: 5rem 0;
@@ -61,6 +61,10 @@ div p a {
 
 .padding {
     padding: 10px;
+}
+
+.padding-bottom {
+    padding-bottom: 30px;
 }
 
 hr {
@@ -93,7 +97,7 @@ hr {
 .navbar-brand {
     font-weight: bold;
     font-size:  30px;
-    font-family: piedra;
+    font-family: Black Ops One;
 }
 
 .navbar-light .navbar-brand {
