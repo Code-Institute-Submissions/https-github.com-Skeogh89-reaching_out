@@ -51,6 +51,8 @@ NAVBAR brand text not showing correctly for smaller screens- changed css details
 Deployment:
 ------------
 
+balsamiq link : https://balsamiq.cloud/sjxgp18/pitc8e1
+
 Deployed using githb pages.
 
 
