@@ -10,13 +10,13 @@ We’re a group of residents in the Donaghmede area that have come together to o
 Existing Features: 
 --------------------------
 
-1 - carosel with changing images. 
+1 - Carosel with changing images. 
 
-2 - infomation on cocooning and how to recieve mask.
+2 - Infomation on cocooning and how to recieve mask.
 
-3 - navigation bar the links to all pages - also buttons on pages linking to contact page.
+3 - Navigation bar the links to all pages - also buttons on pages linking to contact page.
 
-4 - footer links to social media accounts.
+4 - Footer links to social media accounts.
 
 
 Features Left to Implement:  
@@ -31,19 +31,21 @@ Bootstrap
 Testing:
 --------
 
+Tested index.html, mask.html, contact.html and cocoon.html. 
+
 ml-auto on icon toggler not working in NAV-bar. fixed- forgot to enter scripts
 
 tested of page navigation through NAC links- All work correctly.
 
-Working on scaling carosel and images on pages. 
+Worked on scaling carosel and images on pages. Changed css size at certain resoloutions. 
 
-Worked on different screen sizes. Remove and inserted image at different resoloutions for HOME and Shopping page.
+Worked on different screen sizes. Remove and inserted image at different resoloutions for HOME and Shopping page. Added media queries in CSS. 
 
-added alt infomation for the visuallay impaired. 
+added alt infomation for the visuallay impaired - added code in html files for all pages. . 
 
-NAVBAR brand text not showing correctly for smaller screens : fixed.
+NAVBAR brand text not showing correctly for smaller screens- changed css details at certain media queries : fixed.
 
-form showing too large at desktop level but fine at mobile : 
+ Form showing too large at desktop level but fine at mobile : FIXED 
 
 
 Deployment:
